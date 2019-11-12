@@ -2,8 +2,8 @@
 
 function getConnection() {
   $dsn = 'pgsql:dbname=winecave host=localhost port=5432';
-  $user = 'winecaveadmin';
-  $password = 'fbdc1234';
+  $user = 'xxxxxxxx';
+  $password = 'xxxxxxxx';
 
   try {
     $dbh = new PDO($dsn, $user, $password);
